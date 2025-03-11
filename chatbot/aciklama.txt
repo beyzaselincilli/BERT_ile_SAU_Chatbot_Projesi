@@ -1,0 +1,14 @@
+İlk olarak gerekli kütüphaneleri yükleyin:
+pip install -r requirements.txt
+
+PDF'lerden veri çıkarma işlemi için:
+python data_preparation/pdf_extractor.py
+
+Eğitim verisi oluşturmak için:
+python data_preparation/create_training_data.py
+
+Modeli eğitmek için:
+python train_model.py
+
+Son olarak chatbot'u başlatmak için:
+streamlit run app.py 
